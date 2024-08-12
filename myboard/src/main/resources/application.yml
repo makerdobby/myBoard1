@@ -3,7 +3,7 @@ spring:
     ansi:
       enabled: always
   datasource:
-    url: jdbc:oracle:thin:@oracle_high?TNS_ADMIN=G:/Wallet
+    url: jdbc:oracle:thin:@oracle_high?TNS_ADMIN=C://Wallet_oracle
     username: admin
     password: Gmlwhd543023!
     driver-class-name: oracle.jdbc.OracleDriver
