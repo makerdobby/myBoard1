@@ -1,0 +1,14 @@
+spring:
+  output:
+    ansi:
+      enabled: always
+  datasource:
+    url: jdbc:oracle:thin:@oracle_high?TNS_ADMIN=G:/Wallet
+    username: admin
+    password: Gmlwhd543023!
+    driver-class-name: oracle.jdbc.OracleDriver
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+
+
